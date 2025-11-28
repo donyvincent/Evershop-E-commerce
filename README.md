@@ -19,8 +19,8 @@ This deployment covers both business functionality and cloud infrastructure engi
 
 Compute & Scaling
 *Deployed EverShop (Node.js) on Amazon EC2
-*Configured Launch Templates and Auto Scaling Group
-*Integrated Application Load Balancer (ALB) for high availability
+,Configured Launch Templates and Auto Scaling Group
+,Integrated Application Load Balancer (ALB) for high availability
 
 Database Layer
 *Amazon RDS MySQL → Stores business/product/customer data
