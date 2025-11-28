@@ -81,3 +81,31 @@ Application Stack
 *Requested ACM SSL → Attached certificate
 
 
+
+
+************************👨‍💻 Electronics Category Customization**************************
+
+
+
+As part of training, the Electronics category was fully implemented:
+*Added products
+*Uploaded images to S3
+*Verified CloudFront delivery
+*Tested storefront and admin panel
+*Ensured workflow functionality (create → view → update → delete)
+
+
+
+
+
+**********************🎯 Outcome****************************
+
+This project demonstrates the ability to:
+*Deploy production-level cloud architectures
+*Integrate multiple AWS services
+*Manage multi-database applications
+*Optimize performance using CDN & caching
+*Secure applications with HTTPS
+*Troubleshoot cloud and backend issues
+*Apply real-world DevOps practices
+
