@@ -24,22 +24,22 @@ Compute & Scaling
 
 Database Layer
 *Amazon RDS MySQL → Stores business/product/customer data
-*PostgreSQL → Stores internal EverShop system metadata
+,PostgreSQL → Stores internal EverShop system metadata
 
 Storage & CDN
 *Amazon S3 for product image uploads
-*CloudFront CDN for global, low-latency delivery of images
+,CloudFront CDN for global, low-latency delivery of images
 
 Networking & Security
 *Route 53 custom domain routing
-*ACM SSL Certificate enabling HTTPS
-*Configured IAM roles & security groups for secure communication
-*ALB → EC2 health checks + auto-healing
+,ACM SSL Certificate enabling HTTPS
+,Configured IAM roles & security groups for secure communication
+,ALB → EC2 health checks + auto-healing
 
 Customization Performed
 *Fully implemented and tested the Electronics product category
-*Added sample products, uploaded images, validated admin workflows
-*Optimized static asset delivery via CloudFront
+,Added sample products, uploaded images, validated admin workflows
+,Optimized static asset delivery via CloudFront
 
 
 
@@ -60,25 +60,25 @@ Application Stack
 
 ✔ 1. Launch EC2 & Deploy EverShop
 *Installed Node.js, PM2
-*Installed EverShop and configured .env
-*Connected MySQL + PostgreSQL
-*Started production build
+,Installed EverShop and configured .env
+,Connected MySQL + PostgreSQL
+,Started production build
 
 ✔ 2. Configure RDS MySQL
 *Created DB instance
-*Created EverShop tables
-*Connected via environment variables
+,Created EverShop tables
+,Connected via environment variables
 
 ✔ 3. Configure S3 + CloudFront
 *Enabled public-blocking bucket
-*Created CloudFront distribution
-*Updated EverShop config with baseUrl
+,Created CloudFront distribution
+,Updated EverShop config with baseUrl
 
 ✔ 4. Configure Networking
 *Created ALB → Target Group → Health checks
-*Created Auto Scaling Group
-*Added Route 53 domain
-*Requested ACM SSL → Attached certificate
+,Created Auto Scaling Group
+,Added Route 53 domain
+,Requested ACM SSL → Attached certificate
 
 
 
@@ -89,10 +89,10 @@ Application Stack
 
 As part of training, the Electronics category was fully implemented:
 *Added products
-*Uploaded images to S3
-*Verified CloudFront delivery
-*Tested storefront and admin panel
-*Ensured workflow functionality (create → view → update → delete)
+,Uploaded images to S3
+,Verified CloudFront delivery
+,Tested storefront and admin panel
+,Ensured workflow functionality (create → view → update → delete)
 
 
 
@@ -102,10 +102,10 @@ As part of training, the Electronics category was fully implemented:
 
 This project demonstrates the ability to:
 *Deploy production-level cloud architectures
-*Integrate multiple AWS services
-*Manage multi-database applications
-*Optimize performance using CDN & caching
-*Secure applications with HTTPS
-*Troubleshoot cloud and backend issues
-*Apply real-world DevOps practices
+,Integrate multiple AWS services
+,Manage multi-database applications
+,Optimize performance using CDN & caching
+,Secure applications with HTTPS
+,Troubleshoot cloud and backend issues
+,Apply real-world DevOps practices
 
